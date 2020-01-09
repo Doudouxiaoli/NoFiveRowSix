@@ -1,0 +1,32 @@
+<view class="contains">
+  <view class="types-item">
+    <navigator url="/pages/album/album">
+      <image src="icon/music.png"></image>
+      <text>专辑</text>
+    </navigator>
+  </view>
+  <view class="types-item">
+    <navigator url="/pages/album/album">
+      <image src="icon/concert.png"></image>
+      <text>演唱会</text>
+    </navigator>
+  </view>
+  <view class="types-item">
+    <navigator url="/pages/album/album">
+      <image src="icon/molivideo.png"></image>
+      <text>影视</text>
+    </navigator>
+  </view>
+  <view class="types-item">
+    <navigator url="/pages/album/album">
+      <image src="icon/endorsement.png"></image>
+      <text>代言</text>
+    </navigator>
+  </view>
+  <view class="types-item">
+    <navigator url="/pages/album/album">
+      <image src="icon/dance.png"></image>
+      <text>舞蹈</text>
+    </navigator>
+  </view>
+</view>

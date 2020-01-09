@@ -1,0 +1,31 @@
+.contains {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20rpx;
+}
+
+.types-item {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 40rpx 40rpx;
+  text-align: center;
+}
+
+.types-item image {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  margin: auto;
+}
+
+.types-item text {
+  font-size: 28rpx;
+  line-height: 28rpx;
+  color: #808080;
+}
+
+.active {
+  color: #9A85B7;
+}

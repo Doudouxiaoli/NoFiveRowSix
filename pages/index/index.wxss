@@ -1,0 +1,59 @@
+page{
+  background-color:  #9A85B7;
+}
+.heard {
+  width: 750rpx;
+  height: 100rpx;
+  box-sizing: border-box;
+}
+
+.heard .heard-icon {
+  width: 80rpx;
+  height: 80rpx;
+  padding: 2rpx 0;
+  display: inline-block;
+}
+
+.heard .heard-search {
+  width: 630rpx;
+  height: 80rpx;
+  padding:-2rpx 0; 
+  /* border: 8px solid rgb(154, 133, 183); */
+  display: inline-block;
+  background: gainsboro;
+  text-align: center;
+}
+.content{
+  height: 500rpx;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}
+.content-ablum {
+  width: 750rpx;
+  height: 480rpx;
+}
+
+.content-ablum image {
+  width: 750rpx;
+}
+/* .foot{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 750rpx;
+  margin:500rpx 0 0 0;
+  background-color: rgb(61, 33, 87); 
+}
+.icon{
+  display: block;
+  flex-grow: 1;
+  width: 40rpx;
+  margin: 10rpx 10rpx;
+  height: 100rpx;
+}
+.icon .icon-describe{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0;
+  display: inline-block;
+  font-size:20rpx;
+} */

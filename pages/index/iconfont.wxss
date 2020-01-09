@@ -1,0 +1,38 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1578301716617'); /* IE9 */
+  src: url('iconfont.eot?t=1578301716617#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQwAAsAAAAACJgAAAPjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqENIQAATYCJAMUCwwABCAFhG0HSxuPB8iOkUtOluX/41c8fNy3P7d9Gd+oSWD14t2iKCyBAgoTzAP94zt/fv9Xl/3q6nGMWikSOpu4esDX0xNoJ0ucoJPgG4QbPBeH0zZtzOa3NJc1Jy3rwgDjgLJsjGFjkhQgZhG7dq56MIHHCaAkxFRokVdSA3IscVwAcdKq20HusWATSoMcIo1YmgF0Bwl5agFzE8DN+H38QVTIAVIkaRCnro65XZDxybw1YbvDDtM1G4xU58JtFUgDYyAD4hzpOcFWZgxTfnqzMoASOQZTVSePt5PfmhwOHMWAdErJAzKV/PEYEDkQNRVgJ9kM+GQUiaP1gEka2skwCWhNyEoBy7WUEtAGngD+ifihKWkMKXmo0GgnVkJBlvVCksqN4wtpYlRYtQPf1dfnc/du3e3bNV5K33v36n09KmSE7typtQdV3jB59yeIIMLAu3dbVaCsOyHnzEY15YJcM/v9KsqO15sLy6q27x85MKV6x41F1yZVnrNnVHQUK1YuvH56P0KhoTM3VKpSzGALETUorkXiw7lIk++x6NqpfQCjx7TVP7zve39fveDj60+v016EQQq7zHfT30fbsCTUhNaWsmSF+/J9r+dGZ2ZlTymeV4FnHz42CzMhEzJlhTeYPSUrM3qrfa/dlytCD1zk8eq1mGd1G+a0IUmoBVkd5gNBSH8bxZ3HFBgL8lbkO0yOOK5g2DScF/+i0GgyblS6Q3zvWsiIy1e+P6Of58grM7ds8cL+4uuhWSib47IRR7Y+7icU7n+8lbhVXFi1uwTlcFwONMrUNcpppDTmIDVnqz1izNnAxAiR/idbin5wy62FpBF6geSv4wyLcBpAMgP/wXYA0i/mBkCyCb/ATZfDebA8XLrS6pryTa5iAfCRGOBliIojZ3jsAMdUC5mlB1+dqRzhUHzloiWbeVsdfw2pMlIAWRXkYONJj3PNIQ+0PK1G181MIXTeDqTIBEOa3FhkBjsVslRiIEcuHUqmyF9d5kmAoYwCwMgcAsTNHmC4OAOYm1tIFvsEJHx8ASm3wKBUF55bqowPrTJboO0i7SIdfUTbaTbxsl1UmqVVVG0ztAtuuUGro4JVGyeRYRH+fD41UaGKGdZudZQo8oQXzEaSR6dRg8FMLIJZRzvFMI0oWpLCw/moF4V1mo2glE1AtRNRXYgOfQitTmYmvNZcpAx8vwqlZmPQTkio+xGsQwmstO0TkcJEZEDma0yZ6nblEqtualFEIh7BE5gZEXnkogxSxoywRA/SoTqJwmgKpCyShLNGfFZNWPM64zpugRLx4mwwCCMWSZAUpBeNrY9Gsj3mLirjqclAtZGGOwoAAA==') format('woff2'),
+  url('iconfont.woff?t=1578301716617') format('woff'),
+  url('iconfont.ttf?t=1578301716617') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1578301716617#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 40rpx;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhuye1:before {
+  content: "\e62a";
+  color:floralwhite;
+}
+
+.icon-wode:before {
+  content: "\e66e";
+  color:floralwhite;
+}
+
+.icon-fenlei1:before {
+  content: "\e612";
+  color:floralwhite;
+}
+
+.icon-fenlei2:before {
+  content: "\e602";
+  color:floralwhite;
+}
+

@@ -1,0 +1,8 @@
+<view class="contains">
+      <block wx:for="{{album}}" wx:key="index">
+        <navigator url="{{item.url}}" class="album-item">
+          <image src="{{item.img}}"></image>
+          <text>{{item.text}}</text>
+        </navigator>
+      </block>
+</view>

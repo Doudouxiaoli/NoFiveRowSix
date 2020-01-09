@@ -1,0 +1,23 @@
+<view class="contains">
+  <view class="heard">
+    <image src="/static/index/heard.jpg" class="heard-icon"></image>
+    <input class="heard-search" confirm-type="search" />
+  </view>
+  <view class="content">
+    <swiper class="content-ablum" indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" autoplay circular>
+      <swiper-item>
+        <navigator url="/pages/album/oneAlbum">
+          <image src="/static/index/two.jpg" mode="scaleToFill"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator url="/pages/album/twoAlbum">
+          <image src="/static/index/one.jpg" mode="scaleToFill"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+    <view class="content-types">
+    </view>
+  </view>  
+</view>
+

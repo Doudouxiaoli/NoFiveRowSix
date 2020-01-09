@@ -1,0 +1,11 @@
+page{
+  height: 100%;
+  
+}
+.contains {
+  width: 750rpx;
+  /* height: 1206rpx; */
+  margin: 0;
+  padding: 0;
+}
+

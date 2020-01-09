@@ -1,0 +1,25 @@
+<view class="contains">
+  <view class="top">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <navigator url="update/updatePhone" class="userInfo">
+        <image  src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text>{{userInfo.nickName}}</text>
+      </navigator>
+    </block>
+  </view>
+  <view class="list-wrapper">
+    <view class="itemList">
+      <block wx:for="{{menuitems}}" wx:key="index">
+        <navigator url="{{item.url}}" class="item">
+          <image src="{{item.icon}}"></image>
+          <text>{{item.text}}</text>
+          <view class="right">
+            <image src="{{item.next}}"></image>
+          </view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+
+</view>

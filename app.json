@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/types/type",
+    "pages/user/user",
+    "pages/album/album",
+    "pages/molivideo/movie",
+    "pages/user/update/updatePhone",
+    "pages/album/lost_control/lostControl"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "五排六号",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "static/index/home-active.png",
+        "iconPath": "static/index/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "static/index/type-active.png",
+        "iconPath": "static/index/type.png",
+        "pagePath": "pages/types/type",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "static/index/user-active.png",
+        "iconPath": "static/index/user.png",
+        "pagePath": "pages/user/user",
+        "text": "个人"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap5.json"
+}

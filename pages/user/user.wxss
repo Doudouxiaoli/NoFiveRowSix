@@ -1,0 +1,59 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50rpx 0;
+}
+
+.userInfo {
+  text-align: center;
+}
+
+.userInfo image {
+  display: block;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userInfo text {
+  color: #aaa;
+}
+
+.list-wrapper {
+  top: 80px;
+  margin: 0 20rpx;
+}
+
+.item {
+  display: flex;
+  height: 40rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 14rpx 0;
+  border-bottom: 3rpx solid #dcdcdc;
+}
+
+.item image {
+  margin-right: 10rpx;
+  vertical-align: middle;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.item text {
+  font-size: 30rpx;
+}
+
+.right {
+  position: absolute;
+  margin-left: 650rpx;
+}
+
+.right image {
+  vertical-align: middle;
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 50rpx;
+}
